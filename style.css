@@ -1,0 +1,66 @@
+/* font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0;
+  height: 100%;
+  background: url(./img/bg.png) no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 24px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.hero-title {
+  width: 615px;
+  font-family: "Philosopher";
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 107%;
+  color: #000000;
+}
+
+.line {
+  width: 26px;
+  position: absolute;
+  top: 244px;
+}
+
+.hero-desc {
+  width: 520px;
+  font-family: "Alegreya Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #646464;
+  position: relative;
+  padding-left: 40px;
+}
+
+.spb {
+  width: 495px;
+  font-family: "Alegreya Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #646464;
+}
